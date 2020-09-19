@@ -61,6 +61,9 @@ h4 {
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
+.col-5 {
+    width: 160px;
+}
 
 /* */
 .header {
@@ -100,7 +103,11 @@ h4 {
     display: inline-block;
     margin-right: 20px;
 }
-
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
 .row .col-2 img {
     max-width: 100%;
     padding: 50px 0;
@@ -227,4 +234,67 @@ h4 {
     font-weight: 600;
     color: #555;
     font-size: 16px;
+}
+/* Brands */
+.brands {
+    margin: 100px auto;
+}
+.brands .col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.brands .col-5 img:hover {
+    filter: grayscale(0);
+}
+/*Footer*/
+.footer {
+    background: #000; 
+    color: #8a8a8a;
+    font-size: 14px;
+    padding:  60px 0 20px;
+}
+.footer p {
+    color: #8a8a8a; 
+}
+.footer h3 {
+    color: #fff;
+    ma4gin-bottom: 20px;
+}
+.footer .footer-col-1, .footer .footer-col-2, .footer .footer-col-3, .footer .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer .footer-col-1 {
+    flex-basis: 30%;
+}
+.footer .footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+.footer .footer-col-1 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer .footer-col-3, .footer .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer .footer-col-3 ul, .footer .footer-col-4 ul {
+    list-style: none;
+}
+.footer .footer-col-1 .app-logo {
+    margin-top: 20px;
+}
+.footer .footer-col-1 .app-logo img {
+    width: 140px;
+}
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.footer .copyright {
+    text-align: center;
 }
