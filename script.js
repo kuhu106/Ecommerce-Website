@@ -35,3 +35,19 @@
     {
         ProductImg.src = SmallImg[3].src;
     }
+    
+//JS for toggle form
+    var LoginForm = document.getElementById("LoginForm");
+    var RegForm = document.getElementById("RegForm");
+    var Indicator = document.getElementById("Indicator");
+    
+    function register(){
+        document.getElementById("RegForm").style.transform = "translateX(0px)";
+        document.getElementById("LoginForm").style.transform = "translateX(0px)";
+        document.getElementById("Indicator").style.transform = "translateX(100px)";
+    }
+    function login(){
+        document.getElementById("RegForm").style.transform = "translateX(300px)";
+        document.getElementById("LoginForm").style.transform = "translateX(300px)";
+        document.getElementById("Indicator").style.transform = "translateX(0px)";
+    }
